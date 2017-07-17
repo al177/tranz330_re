@@ -1,4 +1,4 @@
-update=Sat 01 Jul 2017 11:26:42 PM CDT
+update=Mon 17 Jul 2017 01:31:25 AM CDT
 version=1
 last_client=kicad
 [pcbnew]
@@ -62,3 +62,13 @@ LibName30=z80a
 LibName31=tdk_modem
 LibName32=oki_peripherals
 LibName33=rs232drv
+[schematic_editor]
+version=1
+PageLayoutDescrFile=
+PlotDirectoryName=
+SubpartIdSeparator=0
+SubpartFirstId=65
+NetFmtName=
+SpiceForceRefPrefix=0
+SpiceUseNetNumbers=0
+LabSize=60
