@@ -1,0 +1,44 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP 2N7008
+D 60V Vds 0.5A Id, N-Channel MOSFET, TO-92
+K N-Channel MOSFET
+F http://www.fairchildsemi.com/ds/BS/BS170.pdf
+$ENDCMP
+#
+$CMP 62256
+D SRAM 32K x  8 bits, DIP28 600mil, 70ns
+K SRAM 32KB High Speed CMOS Static RAM
+$ENDCMP
+#
+$CMP 73K212AL
+D TDK 73K212AL Bell 212A/103 POTS Modem
+K modem pots 212a 1200 300 baud
+$ENDCMP
+#
+$CMP HM62256BLP-7
+D SRAM 32K x  8 bits, DIP28 600mil, 70ns
+K SRAM 32KB High Speed CMOS Static RAM
+$ENDCMP
+#
+$CMP Z80A
+D Z80 CPU
+K Zilog Z80 CPU
+$ENDCMP
+#
+$CMP Z80CTC
+D Z80 Clock Timer
+K Z80 CTC Zilog
+$ENDCMP
+#
+$CMP Z80DART
+D Z80 Dual Async UART
+K UART SIO Z80
+$ENDCMP
+#
+$CMP Z80PIO
+D Z80 Parallel I/O
+K Z80 Zilog PIO Parallel
+$ENDCMP
+#
+#End Doc Library

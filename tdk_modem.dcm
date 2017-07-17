@@ -1,0 +1,8 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP 73K212AL
+D TDK 73K212AL POTS 1200/300 baud modem
+K modem
+$ENDCMP
+#
+#End Doc Library

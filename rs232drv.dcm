@@ -1,0 +1,13 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP DS1489
+D DS14C88 Quad CMOS RS232 line driver
+K RS232 receiver
+$ENDCMP
+#
+$CMP DS14C88
+D DS14C88 Quad CMOS RS232 line driver
+K RS232 driver
+$ENDCMP
+#
+#End Doc Library
