@@ -850,9 +850,9 @@ Wire Wire Line
 Wire Wire Line
 	900  5800 1050 5800
 Text Label 900  5700 0    59   ~ 0
-A0
-Text Label 900  5800 0    59   ~ 0
 A1
+Text Label 900  5800 0    59   ~ 0
+A0
 $Comp
 L CONN_01X20 P1
 U 1 1 59621545
@@ -1128,9 +1128,9 @@ Wire Bus Line
 Text GLabel 6550 1800 0    59   Input ~ 0
 A
 Text Label 6800 2000 0    59   ~ 0
-A0
-Text Label 6800 2100 0    59   ~ 0
 A1
+Text Label 6800 2100 0    59   ~ 0
+A0
 Text GLabel 6750 2900 0    39   Input ~ 0
 CLK
 Wire Wire Line
