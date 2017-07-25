@@ -11,11 +11,6 @@ D SRAM 32K x  8 bits, DIP28 600mil, 70ns
 K SRAM 32KB High Speed CMOS Static RAM
 $ENDCMP
 #
-$CMP 73K212AL
-D TDK 73K212AL Bell 212A/103 POTS Modem
-K modem pots 212a 1200 300 baud
-$ENDCMP
-#
 $CMP HM62256BLP-7
 D SRAM 32K x  8 bits, DIP28 600mil, 70ns
 K SRAM 32KB High Speed CMOS Static RAM

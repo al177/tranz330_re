@@ -38,11 +38,11 @@ EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 2
-Title ""
-Date ""
-Rev ""
+Title "Top Level - CPU, RAM, clock, I/O decode"
+Date "2017-07-24"
+Rev "0.5"
 Comp ""
-Comment1 ""
+Comment1 "VeriFone Tranz 330 reverse engineered schematic"
 Comment2 ""
 Comment3 ""
 Comment4 ""
@@ -783,7 +783,7 @@ Entry Wire Line
 	7700 5100 7800 5200
 Entry Wire Line
 	7700 5200 7800 5300
-Text GLabel 7600 4800 0    59   BiDi ~ 0
+Text GLabel 7600 4800 0    59   Input ~ 0
 A
 Text Label 7800 5100 0    39   ~ 0
 A4
@@ -1279,5 +1279,7 @@ $EndComp
 Text Notes 9400 1800 0    60   ~ 0
 DART\nPIO\nCTC\nSerial\nModem\nRTC
 Text Notes 6300 2900 0    39   ~ 0
-/RESET is generated\nfrom the L387A regulator's \nreset output (U27 pin 2)\n
+/RESET is generated from the\nL387A regulator's reset output\n(U27 pin 2) if +5V is not stable.\nQ1 prevents the RAM from being\nwritten with garbage when +5V\nis coming up or going down.
+Text Notes 5500 2100 0    39   ~ 0
+VMEM is supplied from a diode-OR\nof the 3V lithium cell at B1 and +5V.\nRAM contents are always retained\nwhen power is off, so watch those\nuninitialized variables.\n
 $EndSCHEMATC
